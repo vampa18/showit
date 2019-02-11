@@ -1,0 +1,659 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.header {
+  background-color: #1D2126; }
+  .header .container .navbar img {
+    width: 70px; }
+  .header .container .navbar .logo-text {
+    display: inline-block; }
+  .header .container .navbar li {
+    font-family: 'BPG Nino Mtavruli';
+    list-style-type: none;
+    border-bottom: 2px solid #1D2126; }
+    .header .container .navbar li a {
+      color: #ffffff;
+      text-decoration: none; }
+    .header .container .navbar li a:hover {
+      border-bottom: 2px solid white;
+      transition-delay: 100ms;
+      transition: 0.2s; }
+  .header .container .navbar li:nth-child(2) {
+    padding-left: 150px; }
+  .header .container .navbar .panel {
+    display: flex; }
+
+.banner-video video {
+  width: 100%; }
+
+.banner-gif {
+  position: relative; }
+  .banner-gif h2 {
+    font-family: 'BPG Nino Mtavruli';
+    display: inline-block;
+    font-size: 32px;
+    position: absolute;
+    left: 21%;
+    top: 45%;
+    color: white;
+    background-color: #E04117;
+    border: 3px solid #E04117;
+    border-radius: 5px;
+    padding: 10px 5px 5px 5px; }
+  .banner-gif h2:hover {
+    background-color: #ff9c70;
+    transition: 0.2s;
+    transition-delay: 10ms; }
+  .banner-gif span {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    font-family: 'BPG Nino Mtavruli';
+    display: inline-block;
+    font-size: 32px;
+    color: yellow;
+    background-color: #363E97;
+    border: 3px solid #363E97;
+    border-radius: 5px;
+    padding: 10px 5px 5px 5px; }
+  .banner-gif span:hover {
+    background-color: #5767DD;
+    transition: 0.2s;
+    transition-delay: 10ms; }
+
+/* ABOUR US SECTION HERE */
+.about-us {
+  padding-bottom: 50px; }
+  .about-us .container .about-us-heading .about-us-header {
+    color: #292F36;
+    font-family: 'BPG Nino Mtavruli';
+    font-size: 32px;
+    margin: 80px 0px 40px 0px;
+    border-left: 15px solid #292F36; }
+  .about-us .container .about-us-heading .article-container img {
+    float: right;
+    padding-top: 50px; }
+  .about-us .container .about-us-heading .article-container .article-text {
+    font-family: 'BPG Glaho';
+    color: #8D8F92;
+    font-size: 16px;
+    list-style-type: decimal; }
+    .about-us .container .about-us-heading .article-container .article-text li {
+      margin: 20px 0px;
+      line-height: 150%; }
+
+/* END OF ABOUT US SECTION */
+/* OUR TEAM SECTION */
+.our-team {
+  background-color: #0816bf; }
+  .our-team .container .our-team-container .our-team-header {
+    color: #ffffff;
+    font-family: 'BPG Nino Mtavruli';
+    font-size: 32px;
+    padding: 50px 0px; }
+  .our-team .container .our-team-container .article-container {
+    padding-bottom: 50px; }
+    .our-team .container .our-team-container .article-container .article-item .article-text1 {
+      align-self: center;
+      color: #ffffff;
+      text-decoration: none;
+      padding-top: 20px;
+      font-size: 20px;
+      background: #f7814d; }
+    .our-team .container .our-team-container .article-container .article-item .article-text2 {
+      color: #ffffff;
+      text-decoration: none;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 20px;
+      background: #f7814d;
+      align-self: center; }
+    .our-team .container .our-team-container .article-container .article-item .hover-image {
+      display: none; }
+
+/* END OF OUR TEAM SECTION */
+/* NEWS SECTION */
+.news-container {
+  background-color: white; }
+  .news-container .news-header h2 {
+    color: #292F36;
+    font-size: 32px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'BPG Nino Mtavruli';
+    text-align: center; }
+  .news-container .article-container .article-item {
+    padding-bottom: 50px; }
+    .news-container .article-container .article-item img {
+      align-self: center; }
+  .news-container .article-container .article-item .article-text1 {
+    font-family: 'BPG Nino Mtavruli';
+    width: 100%;
+    font-size: 24px;
+    box-sizing: border-box;
+    color: #292F36;
+    padding: 25px 0px; }
+    .news-container .article-container .article-item .article-text1:hover {
+      color: red;
+      transition: 0.2s; }
+  .news-container .article-container a {
+    text-decoration: none; }
+  .news-container .article-container .article-item .article-text2 {
+    font-family: 'BPG Glaho';
+    width: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #8D8F92;
+    display: inline-block; }
+
+/* END OF NEWS SECTION */
+/* OUR CUSTOMERS SECTION */
+.our-customers {
+  background-color: #0816bf;
+  padding: 50px 0px; }
+  .our-customers .container .we-work-for h2 {
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'BPG Nino Mtavruli'; }
+  .our-customers .container .numbers-container .numbers .circle {
+    border: 5px solid;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    align-self: center;
+    margin: 10px 40px;
+    position: relative; }
+  .our-customers .container .numbers-container .numbers span {
+    font-size: 50px;
+    position: absolute;
+    left: 60px;
+    top: 55px;
+    color: white; }
+  .our-customers .container .numbers-container .numbers .cicle-text h5 {
+    padding-top: 10px;
+    color: white;
+    font-family: 'BPG Glaho';
+    font-size: 24px; }
+
+/* END OF OUR CUSTOMERS SERCTION */
+/* TOP SERVERS SECTION */
+#top-servers {
+  background-color: #FFFFFF; }
+  #top-servers .container .our-servers .our-servers-header {
+    padding: 50px 0px; }
+    #top-servers .container .our-servers .our-servers-header h2 {
+      color: #1C2530;
+      font-size: 32px;
+      font-family: 'BPG Nino Mtavruli'; }
+    #top-servers .container .our-servers .our-servers-header a {
+      text-decoration: none; }
+  #top-servers .container .our-servers .view-more-button {
+    padding: 40px 0px; }
+    #top-servers .container .our-servers .view-more-button h2 {
+      border: 2px solid #f7814d;
+      display: inline-block;
+      font-family: 'BPG Nino Mtavruli';
+      font-size: 15px;
+      padding: 12px 10px 10px 10px;
+      border-radius: 10px;
+      color: #1C2530;
+      background-color: #f7814d; }
+      #top-servers .container .our-servers .view-more-button h2:hover {
+        background-color: #ff9c70;
+        transition: 0.2s; }
+
+/* END OF TOP SERVERS SECTiON*/
+/* hr  */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px; }
+
+/* END OF hr*/
+/* PRICE SECTION */
+#plans, #plans ul, #plans ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#pricePlans:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+#pricePlans {
+  zoom: 1; }
+
+#pricePlans {
+  background-color: #0816bf;
+  padding-bottom: 30px; }
+  #pricePlans #plans .plan {
+    background: #fff;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+#pricePlans .container .text-container .price-plans-header h2 {
+  font-size: 32px;
+  padding: 50px 0px;
+  font-family: 'BPG Nino Mtavruli';
+  color: #FFFFFF; }
+
+.planContainer .title h2 {
+  font-size: 26px;
+  font-weight: 300;
+  color: #3e4f6a;
+  margin: 0;
+  padding: .6em 0;
+  font-family: 'BPG Nino Mtavruli'; }
+
+.planContainer .title .bestPlanTitle {
+  background: #3e4f6a;
+  background: -webkit-linear-gradient(top, #475975, #364761);
+  background: -moz-linear-gradient(top, #475975, #364761);
+  background: -o-linear-gradient(top, #475975, #364761);
+  background: -ms-linear-gradient(top, #475975, #364761);
+  background: linear-gradient(top, #475975, #364761);
+  color: #fff;
+  border-radius: 5px 5px 0 0; }
+
+.planContainer .price p {
+  background: #3e4f6a;
+  background: -webkit-linear-gradient(top, #475975, #364761);
+  background: -moz-linear-gradient(top, #475975, #364761);
+  background: -o-linear-gradient(top, #475975, #364761);
+  background: -ms-linear-gradient(top, #475975, #364761);
+  background: linear-gradient(top, #475975, #364761);
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
+  height: 2.6em;
+  line-height: 2.6em;
+  margin: 0 0 1em; }
+  .planContainer .price p .bestPlanPrice {
+    background: #f7814d; }
+
+.planContainer .price .bestPlanPrice {
+  background: #f7814d; }
+
+.planContainer .price span {
+  color: #8394ae; }
+
+.planContainer .options {
+  margin-top: 10em; }
+  .planContainer .options li {
+    font-weight: 700;
+    font-family: 'BPG Glaho';
+    color: #364762;
+    line-height: 2.5; }
+    .planContainer .options li span {
+      font-weight: 400;
+      color: #979797; }
+
+.planContainer .button a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3e4f6a;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 2.8em;
+  border: 2px solid #3e4f6a;
+  display: inline-block;
+  width: 80%;
+  height: 2.8em;
+  border-radius: 4px;
+  margin: 1.5em 0 1.8em; }
+
+.planContainer .button .bestPlanButton {
+  color: #fff;
+  background: #f7814d;
+  border: 2px solid #f7814d; }
+
+/* END OF PRICE SECTION */
+.port-checker .container h2 {
+  background-color: #FFFFFF;
+  font-size: 32px;
+  font-family: 'BPG Nino Mtavruli';
+  padding: 30px 0px; }
+
+.port-checker .container .check-port {
+  padding-bottom: 50px; }
+  .port-checker .container .check-port input {
+    line-height: 50px;
+    font-size: 16px;
+    font-family: 'BPG Glaho';
+    border-radius: 5px; }
+  .port-checker .container .check-port a {
+    padding: 19px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #f7814d;
+    border: 1px solid #f7814d;
+    border-radius: 10px; }
+    .port-checker .container .check-port a span {
+      font-family: 'BPG Nino Mtavruli'; }
+    .port-checker .container .check-port a:hover {
+      background-color: #ff9c70;
+      transition: 0.2s; }
+
+.phone-mail {
+  background-color: #431f5d; }
+  .phone-mail .container .items ul li {
+    display: inline-block;
+    width: 365px;
+    font-size: 23px;
+    padding: 20px 0px;
+    cursor: pointer;
+    color: #FFFFFF;
+    list-style: none; }
+    .phone-mail .container .items ul li img {
+      margin-right: 15px;
+      vertical-align: middle; }
+    .phone-mail .container .items ul li:hover {
+      background-color: #371a4c;
+      transition: 0.3s; }
+
+.web-footer {
+  background-color: #050e7f; }
+  .web-footer .container .footer-widget {
+    padding: 50px 0px 30px 0px; }
+    .web-footer .container .footer-widget .header {
+      padding-bottom: 30px;
+      background-color: #050e7f;
+      cursor: default; }
+    .web-footer .container .footer-widget h2 {
+      font-size: 32px;
+      color: #FFFFFF; }
+    .web-footer .container .footer-widget p {
+      color: #9aa4c6;
+      font-family: 'BPG Glaho';
+      font-size: 16px;
+      line-height: 20px; }
+    .web-footer .container .footer-widget .social-links ul {
+      padding-top: 30px;
+      list-style: none; }
+      .web-footer .container .footer-widget .social-links ul li {
+        display: inline-block;
+        padding: 10px 10px; }
+        .web-footer .container .footer-widget .social-links ul li a {
+          color: #FFFFFF; }
+    .web-footer .container .footer-widget .recent-news .recent-news-header h2 {
+      font-size: 24px;
+      padding-bottom: 30px; }
+    .web-footer .container .footer-widget .recent-news p {
+      color: #ffffff;
+      font-size: 12px; }
+    .web-footer .container .footer-widget .recent-news h4 {
+      color: #ffffff;
+      padding: 10px 0px; }
+    .web-footer .container .footer-widget .subscribe h2 {
+      font-size: 24px; }
+    .web-footer .container .footer-widget .subscribe input {
+      width: 80%;
+      margin-top: 40px;
+      height: 50px;
+      border-radius: 4px;
+      background-color: #0a26b0;
+      border-color: #0a26b0;
+      color: #FFFFFF;
+      padding: 0px 10px;
+      box-sizing: border-box; }
+      .web-footer .container .footer-widget .subscribe input::placeholder {
+        color: #ffffff; }
+    .web-footer .container .footer-widget .subscribe a img {
+      width: 30px;
+      margin-left: 10px;
+      vertical-align: middle;
+      background-color: transparent; }
+    .web-footer .container .footer-widget .subscribe p {
+      padding-top: 30px; }
+  .web-footer .bottom-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.15); }
+    .web-footer .bottom-footer .container .rights h2 {
+      padding: 30px 0px;
+      color: #FFFFFF;
+      font-family: 'BPG Glaho'; }
+    .web-footer .bottom-footer .container .footer-navbar ul {
+      text-align: right; }
+      .web-footer .bottom-footer .container .footer-navbar ul li {
+        padding: 30px 0px;
+        list-style: none;
+        display: inline-block;
+        padding-right: 15px; }
+        .web-footer .bottom-footer .container .footer-navbar ul li:last-child {
+          padding-right: 0px; }
+        .web-footer .bottom-footer .container .footer-navbar ul li a {
+          color: #9aa4c6;
+          text-decoration: none;
+          font-family: 'BPG Glaho'; }
+          .web-footer .bottom-footer .container .footer-navbar ul li a:hover {
+            color: #FFFFFF; }
+
+/* RULES PAGE */
+.rules {
+  padding-bottom: 50px; }
+  .rules .container .rules-heading .rules-header {
+    color: #292F36;
+    font-family: 'BPG Nino Mtavruli';
+    font-size: 32px;
+    margin: 80px 0px 40px 0px;
+    border-left: 15px solid #292F36; }
+  .rules .container .rules-heading .article-container img {
+    float: right;
+    padding-top: 50px; }
+  .rules .container .rules-heading .article-container .article-text {
+    font-family: 'BPG Glaho';
+    color: #8D8F92;
+    font-size: 16px;
+    list-style-type: decimal; }
+    .rules .container .rules-heading .article-container .article-text .headers {
+      color: #292F36;
+      font-size: 22px; }
+    .rules .container .rules-heading .article-container .article-text li {
+      margin: 20px 0px;
+      line-height: 150%; }
+    .rules .container .rules-heading .article-container .article-text .general-rules {
+      padding-bottom: 30px; }
+    .rules .container .rules-heading .article-container .article-text .owner-rules {
+      padding-bottom: 30px; }
+
+.contact .container .header {
+  background-color: #FFFFFF; }
+  .contact .container .header h2 {
+    font-size: 32px;
+    padding: 100px 0px 30px 0px;
+    color: #031b4e; }
+  .contact .container .header p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #7884ac; }
+  .contact .container .header ul li {
+    position: relative;
+    padding-left: 150px;
+    color: #7884ac;
+    margin-bottom: 40px; }
+    .contact .container .header ul li span {
+      color: #031b4e;
+      display: inline-block;
+      width: 120px;
+      position: absolute;
+      left: 0px; }
+    .contact .container .header ul li a {
+      color: #031b4e; }
+    .contact .container .header ul li .soc-media li {
+      padding-left: 0px;
+      display: inline-block;
+      margin-right: 15px;
+      box-sizing: border-box; }
+      .contact .container .header ul li .soc-media li a {
+        font-size: 12px; }
+
+.contact .container .contact-form {
+  display: block;
+  box-sizing: border-box;
+  padding: 100px 0px; }
+  .contact .container .contact-form .fields {
+    padding-bottom: 30px; }
+    .contact .container .contact-form .fields input {
+      border: 1px solid #e1eeff;
+      height: 40px;
+      width: 100%;
+      font-size: 14px;
+      line-height: 1.5;
+      display: block;
+      color: #495057;
+      box-sizing: border-box;
+      padding: 0px 10px; }
+      .contact .container .contact-form .fields input::placeholder {
+        color: #9aa4c6; }
+  .contact .container .contact-form textarea {
+    height: 200px;
+    width: 100%;
+    resize: none;
+    display: block;
+    border: 1px solid #e1eeff;
+    color: #495057;
+    box-sizing: border-box;
+    padding: 10px; }
+    .contact .container .contact-form textarea::placeholder {
+      color: #9aa4c6; }
+  .contact .container .contact-form .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #0063f8;
+    border-color: #fff;
+    box-shadow: none;
+    border-radius: 50px;
+    padding: 8.5px 27px;
+    margin-top: 30px; }
+
+/* PHP PAGES */
+.login .login-container .login-form input {
+  display: block;
+  border: 1px solid #e1eeff; }
+  .login .login-container .login-form input:placeholder {
+    padding-left: 10px; }
+
+.login .login-container .login-form login-inputs {
+  background-color: blue; }
+
+/* MEDIA */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #pricePlans #plans .plan {
+    width: 49%;
+    margin: 0 2% 20px 0; }
+  #pricePlans #plans > li:nth-child(2n) {
+    margin-right: 0; }
+  .banner-gif h2 {
+    position: absolute;
+    top: 55%;
+    left: 17%; }
+  .banner-gif span {
+    position: absolute;
+    top: 20%;
+    left: 23%; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #pricePlans #plans .plan {
+    width: 49%;
+    margin: 0 2% 20px 0; }
+  #pricePlans #plans > li:nth-child(2n) {
+    margin-right: 0; }
+  .banner-gif h2 {
+    position: absolute;
+    top: 55%;
+    left: 20%; }
+  .banner-gif span {
+    position: absolute;
+    top: 35%;
+    left: 23%; } }
+
+@media screen and (min-width: 1025px) {
+  #pricePlans {
+    margin: 2em auto; }
+  #pricePlans #plans .plan {
+    width: 24%;
+    margin: 0 1.33% 20px 0;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s; }
+  #pricePlans #plans > li:last-child {
+    margin-right: 0; }
+  #pricePlans #plans .plan:hover {
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    transform: scale(1.04); }
+  .planContainer .button a {
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s; }
+  .planContainer .button a:hover {
+    background: #3e4f6a;
+    color: #fff; }
+  .planContainer .button a.bestPlanButton:hover {
+    background: #ff9c70;
+    border: 2px solid #ff9c70; } }
+
+/* END OF MEDIA*/
